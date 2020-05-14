@@ -1,0 +1,40 @@
+/* sass variables*/
+$myfont : Helvetica;
+$myfontsize : 18px;
+$mycolor : initial;
+
+p {
+	font-size: $myfontsize;
+	font-family: $myfont;
+	color: $mycolor;
+}
+
+ul {
+	font-size: $myfontsize;
+	font-family: $myfont;
+	color : $mycolor;
+}
+
+/* nesting property */
+table {
+	a {
+		color: #0f8025 !important;
+	}
+}
+
+/* @extend inheritance property */
+
+.heading-value{
+	border-block-end-style: double;
+	border-block-end-width: thin;
+	border-block-end-color: #30077b;
+}
+
+.cast {
+	@extend .heading-value;
+	color: #556c6c;
+}
+.storyline {
+	@extend .heading-value;
+	color: #6a0b21;
+}

@@ -1,0 +1,30 @@
+/* sass variables*/
+p {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: initial; }
+
+ul {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: initial; }
+
+/* nesting property */
+table a {
+  color: #0f8025 !important; }
+
+/* @extend inheritance property */
+.heading-value, .cast, .storyline {
+  border-block-end-style: double;
+  border-block-end-width: thin;
+  border-block-end-color: #30077b; }
+
+.cast {
+  color: #556c6c;
+  font-weight: bolder; }
+
+.storyline {
+  color: #6a0b21;
+  font-size: xx-large; }
+
+/*# sourceMappingURL=primerystyle.css.map */

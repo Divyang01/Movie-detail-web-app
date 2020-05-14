@@ -1,0 +1,61 @@
+/* stylesheet code */
+#movie_heading {
+	font-family: inherit;
+	color: #20034a;
+	text-align: center;
+}
+
+.table {
+	font-variant: all-petite-caps;
+	text-align: center;
+}
+td{
+	font-variant: all-petite-caps;
+	font-size: large;
+	background-color: #c1bcc1;
+}
+.row{
+	 border: 2px solid #0f0d5e;
+	 border-radius: 5px;
+}
+
+#img_avenger > .display-3{
+	margin-inline-start: 0.5%;
+}
+.col-4 > a {
+    color: #dd04b1 !important;
+    margin-inline-start: 1.7%;
+    font-family: initial;
+    border-style: dashed;
+    font-variant: petite-caps;
+    border-color: #0f0d5e;
+}
+
+img {
+	width: -moz-available;
+	height: -moz-available
+}
+
+.alert-info {
+    max-width: 1140px;
+	margin-left: 7.5%;
+
+}
+.col-8, .col-4{
+margin-top: 1%;
+margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+	#movie_heading {
+		font-size: 30px;
+		font-weight: bold;
+	}
+  td{
+		font-size: medium;
+		background-color: #ec8dec;
+	}
+	[class*="col-"]{
+		max-width: 100% !important;
+	}
+}
